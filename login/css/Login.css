@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    background: #FF9364;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+
+    position: relative;
+    margin: 30vh auto;
+}
+
+.welcome{
+    font-size: 45px;
+}
+
+.title{
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    color: black ;
+    text-transform: uppercase;
+}
+#text{
+  
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 100%;
+}
+
+.signup{
+    padding: 10px 28px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border: solid thin black;
+}
+
+#button{
+    padding: 10px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    border: solid thin black;
+    border-radius: 50px;
+
+
+}
+
+#box{
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    width: 300px;
+    padding: 50px;
+    box-shadow: 2px 2px 15px #FF9364;
+}
+
+

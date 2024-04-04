@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    --color: #e77544;
+}
+
+.wrapper-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.profile{
+    grid-column: 1;
+    position: absolute;
+    bottom: 25vh;
+    left: 25vh;
+    
+}
+
+.profile h1{
+    font-size: 48px;
+    color: var(--color);
+ 
+}
+
+.profile h3{
+    text-align: center;
+    background-color: var(--color);
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+
+.upload{
+    border: 1px solid white;
+    grid-column: 1;
+    width: 61vh;
+    position: relative;
+    margin: auto;
+  }
+  
+  .upload img{
+    width: 70vh;
+    height: 70vh;
+    border: none;
+   
+      
+  }
+  
+  .upload .round{
+    position: absolute;
+    bottom: 0;
+    right: -10vh;
+    background: var(--color);
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .upload .round input[type = "file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+  
+  input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+  }
+  
+  .volunteer-title{
+    color: var(--color);
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+ .chart{
+    color: var(--color);
+    border: none;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto; /* Center the chart horizontally */
+
+}
+
+.donations-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color);
+    text-align: center;
+    margin-top: 6vh;
+}
+
+.linechart{
+    margin: 0 auto; /* Center the chart horizontally */
+    color: var(--color);
+    text-align: center;
+    margin-top: 6vh;
+    width: 1000px;
+    height: 1000px;
+    margin: 5vh 20vh;
+}
+
+.role-title{
+    color:#fff;
+    background-color: #e77544;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}

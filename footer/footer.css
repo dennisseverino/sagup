@@ -1,0 +1,112 @@
+
+/**********************************footer**********************/
+.footerbg {
+    
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    -webkit-box-flex-group: row;
+    justify-content: space-between;
+    background-color: #FF9364;
+}
+
+.container .sec {
+    position: relative;
+    color: #000;
+}
+
+
+
+.container h2 {
+    padding: 0 10vh;
+    color: #000;
+    flex-wrap: wrap;
+    position: relative;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.container h3 {
+    display: flex;
+    margin-left: 50px;
+    padding-left: 5vh;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.container p {
+    margin-left: 50px;
+    padding-left: 5vh;
+    padding-bottom: 10px;
+}
+
+
+
+/*---------Menu------------*/
+.Menu {
+    position: relative;
+}
+
+.Menu ul li {
+    list-style: none;
+}
+
+.Menu ul li a {
+    padding-left: 10vh;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.Menu ul li a:hover {
+    text-decoration: #435334 underline;
+}
+
+
+/*------------About Us----------------*/
+.About-Us {
+    text-decoration: none;
+    list-style: none;
+}
+
+.About-Us .about {
+    position: relative;
+}
+
+.About-Us .about li {
+    display: flex;
+    margin-bottom: 16px;
+    padding-left: 10vh;
+}
+
+.About-Us .about li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.About-Us .about li a:hover {
+    text-decoration: white underline;
+}
+
+
+.aboutus h3{
+    margin-top: 4vh;
+    font-size: 24px;
+}
+
+
+.last-footer{
+    background-color: #FF9364;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+

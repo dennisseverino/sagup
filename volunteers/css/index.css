@@ -1,0 +1,15 @@
+body{
+    background-color: #e77544;
+}
+
+.message{
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: white;
+}
